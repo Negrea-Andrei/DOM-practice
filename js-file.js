@@ -11,7 +11,7 @@ h3.style.color = 'blue';
 containter.appendChild(h3);
 
 const div2 = document.createElement('div');
-div2.style.cssText = 'border-color: black; background: pink';
+div2.style.cssText = 'border-width: 5px; border-style: solid;; background-color: pink;';
 
 const hunu = document.createElement('h1');
 hunu.textContent = 'Im in a div';
