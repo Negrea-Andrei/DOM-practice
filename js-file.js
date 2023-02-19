@@ -29,6 +29,15 @@ btn.addEventListener('click', () => {
     alert("Hello again");
 });
 
+function alertFunction() {
+    alert("Hello din functia alert");
+};
+
+const btn2 = document.querySelector('#buton');
+btn2.onclick = alertFunction
+
+const btn3 = document.querySelector('#buton2');
+btn3.addEventListener('click', alertFunction);
 
 
 
