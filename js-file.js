@@ -24,5 +24,12 @@ div2.appendChild(pdoi);
 containter.append(div2);
 
 const btn = document.querySelector("#btn");
-btn.onclick = () => alert("Hello from JS");
+btn.addEventListener('click', () => {
+    alert("Hello from JS");
+    alert("Hello again");
+});
+
+
+
+
 
