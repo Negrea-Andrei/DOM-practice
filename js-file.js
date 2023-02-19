@@ -39,6 +39,21 @@ btn2.onclick = alertFunction
 const btn3 = document.querySelector('#buton2');
 btn3.addEventListener('click', alertFunction);
 
+const ceva = document.querySelector('#ceva');
+ceva.addEventListener('click', function (e) {
+    console.log(e);
+});
+
+const divul = document.querySelector('#butoane')
+const buttons = divul.childNodes;
+
+buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      alert(button.className);
+    });
+  });
+
+
 
 
 
