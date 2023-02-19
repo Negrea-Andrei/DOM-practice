@@ -23,3 +23,6 @@ div2.appendChild(hunu);
 div2.appendChild(pdoi);
 containter.append(div2);
 
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello from JS");
+
