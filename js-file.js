@@ -53,7 +53,3 @@ buttons.forEach((button) => {
     });
   });
 
-
-
-
-
